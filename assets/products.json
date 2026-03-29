@@ -1,0 +1,700 @@
+{
+  "products": [
+    {
+      "id": "outfit_001",
+      "name": "黑色oversize西装外套",
+      "description": "宽松版型修身显高，经典黑色百搭不挑人，适合通勤和约会场合，M码胸围100cm，衣长70cm",
+      "image_url": "https://picsum.photos/seed/blackcoat/400/400",
+      "price": "¥299",
+      "buy_url": "https://s.taobao.com/search?q=黑色oversize西装外套女",
+      "category": "outfit",
+      "keywords": ["黑色", "外套", "西装", "oversize", "宽松", "上衣", "黑", "通勤"],
+      "match": {
+        "styles": ["简约", "职场", "ins风", "街头"],
+        "body_shapes": ["梨形", "均匀", "苹果型"],
+        "occasions": ["通勤", "约会", "日常"],
+        "colors": ["黑色", "深色"],
+        "seasons": ["春", "秋"],
+        "budget_min": 100
+      },
+      "weight": 85
+    },
+    {
+      "id": "outfit_002",
+      "name": "白色棉麻衬衫",
+      "description": "清新文艺风，100%棉麻面料透气舒适，宽松版型遮肉显瘦，适合夏日通勤或休闲出行",
+      "image_url": "https://picsum.photos/seed/whiteshirt/400/400",
+      "price": "¥189",
+      "buy_url": "https://s.taobao.com/search?q=白色棉麻衬衫女宽松",
+      "category": "outfit",
+      "keywords": ["白色", "衬衫", "棉麻", "上衣", "白", "清新", "文艺", "夏天"],
+      "match": {
+        "styles": ["简约", "文艺", "森系", "日系"],
+        "body_shapes": ["梨形", "均匀", "纤细"],
+        "occasions": ["通勤", "日常", "旅行"],
+        "colors": ["白色", "浅色"],
+        "seasons": ["春", "夏"],
+        "budget_min": 50
+      },
+      "weight": 70
+    },
+    {
+      "id": "outfit_003",
+      "name": "A字格纹半裙",
+      "description": "复古格纹设计，A字版型遮胯显腰，搭配任意上衣都好看，腰围可调节，长度及膝",
+      "image_url": "https://picsum.photos/seed/tartan/400/400",
+      "price": "¥159",
+      "buy_url": "https://s.taobao.com/search?q=A字格纹半裙女及膝",
+      "category": "outfit",
+      "keywords": ["裙子", "半裙", "格纹", "A字", "遮胯", "复古", "裙"],
+      "match": {
+        "styles": ["复古", "学院风", "甜美", "日系"],
+        "body_shapes": ["梨形", "均匀"],
+        "occasions": ["约会", "日常", "学校"],
+        "colors": ["格纹", "深色", "暖色"],
+        "seasons": ["春", "秋", "冬"],
+        "budget_min": 50
+      },
+      "weight": 75
+    },
+    {
+      "id": "outfit_004",
+      "name": "卡其色阔腿裤",
+      "description": "高腰设计拉长腿部比例，宽松阔腿遮肉显瘦，卡其色百搭好配，舒适面料适合全天穿着",
+      "image_url": "https://picsum.photos/seed/widepants/400/400",
+      "price": "¥229",
+      "buy_url": "https://s.taobao.com/search?q=高腰阔腿裤女卡其色显瘦",
+      "category": "outfit",
+      "keywords": ["裤子", "阔腿裤", "卡其", "高腰", "宽松", "显瘦", "腿"],
+      "match": {
+        "styles": ["简约", "休闲", "ins风", "通勤"],
+        "body_shapes": ["梨形", "苹果型", "均匀"],
+        "occasions": ["通勤", "日常", "逛街"],
+        "colors": ["卡其", "大地色", "暖色"],
+        "seasons": ["春", "秋", "冬"],
+        "budget_min": 100
+      },
+      "weight": 80
+    },
+    {
+      "id": "outfit_005",
+      "name": "奶白色针织连衣裙",
+      "description": "软糯针织面料，修身版型显曲线，奶白色温柔显肤白，裙长刚好过膝，适合约会和节日",
+      "image_url": "https://picsum.photos/seed/knitdress/400/400",
+      "price": "¥259",
+      "buy_url": "https://s.taobao.com/search?q=奶白色针织连衣裙修身",
+      "category": "outfit",
+      "keywords": ["连衣裙", "针织", "奶白", "裙子", "修身", "温柔", "显白", "裙"],
+      "match": {
+        "styles": ["甜美", "简约", "优雅", "ins风"],
+        "body_shapes": ["均匀", "纤细", "沙漏型"],
+        "occasions": ["约会", "节日", "日常"],
+        "colors": ["白色", "浅色", "奶白"],
+        "seasons": ["春", "秋"],
+        "budget_min": 100
+      },
+      "weight": 85
+    },
+    {
+      "id": "outfit_006",
+      "name": "深蓝色直筒牛仔裤",
+      "description": "经典直筒版型，深蓝色不易显脏，腰部弹力设计穿脱方便，百搭任何上衣，显腿直显腿长",
+      "image_url": "https://picsum.photos/seed/jeans/400/400",
+      "price": "¥199",
+      "buy_url": "https://s.taobao.com/search?q=深蓝直筒牛仔裤女显瘦",
+      "category": "outfit",
+      "keywords": ["牛仔裤", "直筒", "蓝色", "裤子", "百搭", "显腿直"],
+      "match": {
+        "styles": ["简约", "休闲", "街头", "ins风", "日系"],
+        "body_shapes": ["梨形", "均匀", "纤细", "苹果型"],
+        "occasions": ["日常", "逛街", "通勤"],
+        "colors": ["蓝色", "深色"],
+        "seasons": ["春", "秋", "冬"],
+        "budget_min": 50
+      },
+      "weight": 78
+    },
+    {
+      "id": "outfit_007",
+      "name": "卡其风衣中长款",
+      "description": "经典英伦风衣，双排扣设计显腰身，中长款遮住胯部腿短人也能穿，秋冬必备百搭外套",
+      "image_url": "https://picsum.photos/seed/trench/400/400",
+      "price": "¥489",
+      "buy_url": "https://s.taobao.com/search?q=女款卡其风衣中长款英伦",
+      "category": "outfit",
+      "keywords": ["风衣", "外套", "卡其", "英伦", "中长款", "秋冬", "显腰"],
+      "match": {
+        "styles": ["简约", "优雅", "职场", "ins风", "复古"],
+        "body_shapes": ["梨形", "均匀", "苹果型", "沙漏型"],
+        "occasions": ["通勤", "约会", "日常", "旅行"],
+        "colors": ["卡其", "大地色"],
+        "seasons": ["秋", "冬"],
+        "budget_min": 200
+      },
+      "weight": 88
+    },
+    {
+      "id": "outfit_008",
+      "name": "白色蕾丝裙",
+      "description": "精致蕾丝面料，甜美优雅气质，伞裙版型遮住腿部小缺陷，适合约会和小聚，超级显气质",
+      "image_url": "https://picsum.photos/seed/lacedress/400/400",
+      "price": "¥339",
+      "buy_url": "https://s.taobao.com/search?q=白色蕾丝裙甜美约会",
+      "category": "outfit",
+      "keywords": ["蕾丝", "裙子", "白色", "甜美", "约会", "连衣裙", "裙"],
+      "match": {
+        "styles": ["甜美", "少女", "优雅", "日系"],
+        "body_shapes": ["均匀", "纤细", "梨形"],
+        "occasions": ["约会", "节日", "聚会"],
+        "colors": ["白色", "浅色"],
+        "seasons": ["春", "夏"],
+        "budget_min": 100
+      },
+      "weight": 80
+    },
+    {
+      "id": "outfit_009",
+      "name": "黑色小香风粗花呢外套",
+      "description": "法式优雅代表，粗花呢面料质感十足，金色纽扣点缀，修身版型显腰身，显气质首选",
+      "image_url": "https://picsum.photos/seed/tweed/400/400",
+      "price": "¥599",
+      "buy_url": "https://s.taobao.com/search?q=小香风粗花呢外套女黑色",
+      "category": "outfit",
+      "keywords": ["外套", "粗花呢", "小香风", "优雅", "法式", "黑色", "气质"],
+      "match": {
+        "styles": ["优雅", "复古", "职场", "法式"],
+        "body_shapes": ["均匀", "沙漏型", "纤细"],
+        "occasions": ["通勤", "约会", "重要场合"],
+        "colors": ["黑色", "深色"],
+        "seasons": ["秋", "冬"],
+        "budget_min": 300
+      },
+      "weight": 87
+    },
+    {
+      "id": "outfit_010",
+      "name": "莫兰迪色系慵懒毛衣",
+      "description": "高领设计暖和保温，莫兰迪豆绿色时髦高级，oversized版型穿出慵懒感，秋冬减龄必备",
+      "image_url": "https://picsum.photos/seed/sweater/400/400",
+      "price": "¥219",
+      "buy_url": "https://s.taobao.com/search?q=高领莫兰迪色毛衣女宽松",
+      "category": "outfit",
+      "keywords": ["毛衣", "针织", "高领", "莫兰迪", "慵懒", "秋冬", "上衣"],
+      "match": {
+        "styles": ["简约", "ins风", "休闲", "文艺"],
+        "body_shapes": ["均匀", "纤细", "梨形"],
+        "occasions": ["日常", "逛街", "旅行"],
+        "colors": ["绿色", "莫兰迪", "浅色"],
+        "seasons": ["秋", "冬"],
+        "budget_min": 100
+      },
+      "weight": 82
+    },
+    {
+      "id": "lipstick_001",
+      "name": "YSL方管口红 1966",
+      "description": "经典正红色，蓝调偏冷，冷白皮和粉白皮必入，持久显色不干唇，百搭正红神仙色号",
+      "image_url": "https://picsum.photos/seed/ysl1966/400/400",
+      "price": "¥340",
+      "buy_url": "https://s.taobao.com/search?q=YSL方管口红1966正红",
+      "category": "lipstick",
+      "keywords": ["口红", "YSL", "正红", "1966", "红色", "显白", "唇", "大牌"],
+      "match": {
+        "styles": ["简约", "职场", "复古", "优雅"],
+        "skin_tones": ["冷白", "粉白", "自然"],
+        "occasions": ["通勤", "约会", "重要场合"],
+        "colors": ["红色", "正红", "冷色"],
+        "budget_min": 200
+      },
+      "weight": 90
+    },
+    {
+      "id": "lipstick_002",
+      "name": "Armani权利红 405",
+      "description": "玫瑰豆沙调，日常通勤万能色，不挑肤色几乎人人适合，雾面质地持妆8小时",
+      "image_url": "https://picsum.photos/seed/armani405/400/400",
+      "price": "¥380",
+      "buy_url": "https://s.taobao.com/search?q=阿玛尼405红管口红",
+      "category": "lipstick",
+      "keywords": ["口红", "Armani", "阿玛尼", "405", "豆沙", "玫瑰", "日常", "唇", "大牌"],
+      "match": {
+        "styles": ["简约", "优雅", "职场", "日系"],
+        "skin_tones": ["冷白", "自然", "暖黄"],
+        "occasions": ["通勤", "日常", "约会"],
+        "colors": ["豆沙", "玫瑰", "暖色"],
+        "budget_min": 200
+      },
+      "weight": 85
+    },
+    {
+      "id": "lipstick_003",
+      "name": "花知晓小鸡蛋口红 M05",
+      "description": "平价国货之光，豆沙粉棕色，日系少女感满满，不挑肤色超显白，学生党必入平价好物",
+      "image_url": "https://picsum.photos/seed/hzxlipstick/400/400",
+      "price": "¥69",
+      "buy_url": "https://s.taobao.com/search?q=花知晓口红M05豆沙色",
+      "category": "lipstick",
+      "keywords": ["口红", "平价", "国货", "豆沙", "粉色", "学生", "唇", "平价口红"],
+      "match": {
+        "styles": ["甜美", "日系", "少女"],
+        "skin_tones": ["冷白", "粉白", "自然", "暖黄"],
+        "occasions": ["日常", "学校", "约会"],
+        "colors": ["粉色", "豆沙", "暖色"],
+        "budget_min": 0,
+        "budget_max": 200
+      },
+      "weight": 75
+    },
+    {
+      "id": "lipstick_004",
+      "name": "完美日记探索家口红 CR302",
+      "description": "暖调豆沙红，气质温柔款，暖黄皮必入显白利器，丝绒雾面质地显唇形，国货高颜值",
+      "image_url": "https://picsum.photos/seed/pday_lipstick/400/400",
+      "price": "¥79",
+      "buy_url": "https://s.taobao.com/search?q=完美日记探索家口红CR302豆沙红",
+      "category": "lipstick",
+      "keywords": ["口红", "完美日记", "国货", "暖黄皮", "豆沙红", "唇", "平价"],
+      "match": {
+        "styles": ["温柔", "日系", "甜美", "简约"],
+        "skin_tones": ["暖黄", "自然", "小麦"],
+        "occasions": ["日常", "约会", "通勤"],
+        "colors": ["豆沙", "红色", "暖色"],
+        "budget_min": 0,
+        "budget_max": 200
+      },
+      "weight": 78
+    },
+    {
+      "id": "lipstick_005",
+      "name": "NARS高潮腮红+唇釉套装",
+      "description": "经典高潮色桃粉调，腮红+唇釉同色系一步完成甜美妆容，透明感超强，约会利器",
+      "image_url": "https://picsum.photos/seed/nars/400/400",
+      "price": "¥520",
+      "buy_url": "https://s.taobao.com/search?q=NARS高潮色唇釉腮红",
+      "category": "lipstick",
+      "keywords": ["唇釉", "腮红", "NARS", "粉色", "桃粉", "约会", "高光", "妆容"],
+      "match": {
+        "styles": ["甜美", "少女", "日系", "ins风"],
+        "skin_tones": ["冷白", "粉白", "自然"],
+        "occasions": ["约会", "节日", "聚会"],
+        "colors": ["粉色", "桃粉", "冷色"],
+        "budget_min": 300
+      },
+      "weight": 82
+    },
+    {
+      "id": "lipstick_006",
+      "name": "稚优泉咬唇慕斯 MLBB色",
+      "description": "咬唇妆神器，轻薄感如无妆，MLBB色本命裸唇色，油痘皮安全无刺激，超日常通勤款",
+      "image_url": "https://picsum.photos/seed/zyq_lip/400/400",
+      "price": "¥49",
+      "buy_url": "https://s.taobao.com/search?q=稚优泉咬唇慕斯MLBB裸色",
+      "category": "lipstick",
+      "keywords": ["咬唇", "口红", "裸色", "平价", "日常", "国货", "唇", "学生"],
+      "match": {
+        "styles": ["简约", "日系", "少女", "温柔"],
+        "skin_tones": ["冷白", "自然", "暖黄", "粉白"],
+        "occasions": ["日常", "通勤", "学校"],
+        "colors": ["裸色", "粉色", "暖色"],
+        "budget_min": 0,
+        "budget_max": 100,
+        "skin_issues": ["油痘肌安全"]
+      },
+      "weight": 76
+    },
+    {
+      "id": "skincare_001",
+      "name": "玉泽屏障修护精华水",
+      "description": "专为敏感肌设计，无酒精无香精，修护受损皮肤屏障，补水同时增强皮肤抵抗力，皮肤科推荐",
+      "image_url": "https://picsum.photos/seed/yuze/400/400",
+      "price": "¥189",
+      "buy_url": "https://s.taobao.com/search?q=玉泽屏障修护精华水",
+      "category": "skincare",
+      "keywords": ["护肤", "精华水", "敏感肌", "修护", "屏障", "补水", "玉泽"],
+      "match": {
+        "skin_types": ["敏感肌", "干性"],
+        "skin_issues": ["泛红", "过敏", "屏障受损", "干燥"],
+        "budget_min": 100
+      },
+      "weight": 88
+    },
+    {
+      "id": "skincare_002",
+      "name": "雅漾活泉喷雾 300ml",
+      "description": "法国天然活泉水，随时补水镇定，敏感泛红急救利器，上妆前后都可用，出行必备",
+      "image_url": "https://picsum.photos/seed/avene/400/400",
+      "price": "¥59",
+      "buy_url": "https://s.taobao.com/search?q=雅漾活泉喷雾300ml",
+      "category": "skincare",
+      "keywords": ["护肤", "喷雾", "补水", "敏感", "镇定", "雅漾", "急救"],
+      "match": {
+        "skin_types": ["敏感肌", "油性", "混合性", "干性"],
+        "skin_issues": ["泛红", "敏感", "干燥", "急救"],
+        "budget_min": 0
+      },
+      "weight": 72
+    },
+    {
+      "id": "skincare_003",
+      "name": "珀莱雅双抗精华2.0",
+      "description": "烟酰胺+虾青素双重抗氧化，提亮肤色淡化暗沉，长期使用改善肤质，国货明星单品",
+      "image_url": "https://picsum.photos/seed/proya/400/400",
+      "price": "¥239",
+      "buy_url": "https://s.taobao.com/search?q=珀莱雅双抗精华2.0",
+      "category": "skincare",
+      "keywords": ["护肤", "精华", "抗氧化", "提亮", "烟酰胺", "珀莱雅", "暗沉", "国货"],
+      "match": {
+        "skin_types": ["油性", "混合性", "正常"],
+        "skin_issues": ["暗沉", "毛孔粗大", "氧化"],
+        "budget_min": 100
+      },
+      "weight": 87
+    },
+    {
+      "id": "skincare_004",
+      "name": "修丽可色修精华 CE阿魔",
+      "description": "皮肤科明星产品，15%维C+维E+阿魏酸，全效抗氧化，提亮修护一步到位，长期用出玻璃肌",
+      "image_url": "https://picsum.photos/seed/skinceuticals/400/400",
+      "price": "¥1080",
+      "buy_url": "https://s.taobao.com/search?q=修丽可CE阿魔精华维C",
+      "category": "skincare",
+      "keywords": ["护肤", "精华", "维C", "抗氧化", "提亮", "修丽可", "高端"],
+      "match": {
+        "skin_types": ["正常", "干性", "混合性"],
+        "skin_issues": ["暗沉", "斑点", "抗老", "氧化"],
+        "budget_min": 800
+      },
+      "weight": 85
+    },
+    {
+      "id": "skincare_005",
+      "name": "薇诺娜特护霜",
+      "description": "医美级敏感肌专用，修护泛红刺痛立竿见影，激光术后必备修复，安全0刺激，皮肤科首推",
+      "image_url": "https://picsum.photos/seed/winona/400/400",
+      "price": "¥259",
+      "buy_url": "https://s.taobao.com/search?q=薇诺娜特护霜敏感肌修复",
+      "category": "skincare",
+      "keywords": ["护肤", "面霜", "敏感肌", "修复", "泛红", "薇诺娜", "术后修复"],
+      "match": {
+        "skin_types": ["敏感肌"],
+        "skin_issues": ["泛红", "过敏", "干燥", "激素脸", "术后修复"],
+        "budget_min": 100
+      },
+      "weight": 90
+    },
+    {
+      "id": "skincare_006",
+      "name": "科颜氏高保湿霜",
+      "description": "大白罐经典款，超强锁水保湿，干皮油皮都适用，一罐搞定所有保湿需求，百搭面霜",
+      "image_url": "https://picsum.photos/seed/kiehls/400/400",
+      "price": "¥330",
+      "buy_url": "https://s.taobao.com/search?q=科颜氏高保湿霜大白罐",
+      "category": "skincare",
+      "keywords": ["护肤", "面霜", "保湿", "科颜氏", "高保湿", "大白罐", "干皮"],
+      "match": {
+        "skin_types": ["干性", "混合性", "正常", "敏感肌"],
+        "skin_issues": ["干燥", "脱皮", "紧绷", "保湿"],
+        "budget_min": 200
+      },
+      "weight": 84
+    },
+    {
+      "id": "skincare_007",
+      "name": "理肤泉B5精华液",
+      "description": "积雪草+烟酰胺，舒缓修护+控油双效，痘肌红肿急救，改善毛孔粗大，油痘皮救星",
+      "image_url": "https://picsum.photos/seed/laroche/400/400",
+      "price": "¥189",
+      "buy_url": "https://s.taobao.com/search?q=理肤泉B5精华油痘肌",
+      "category": "skincare",
+      "keywords": ["护肤", "精华", "油痘肌", "控油", "毛孔", "痘痘", "理肤泉", "积雪草"],
+      "match": {
+        "skin_types": ["油性", "混合性", "痘肌"],
+        "skin_issues": ["痘痘", "毛孔粗大", "控油", "泛红"],
+        "budget_min": 100
+      },
+      "weight": 86
+    },
+    {
+      "id": "skincare_008",
+      "name": "安热沙小金瓶防晒SPF50+",
+      "description": "日本No.1防晒，超轻薄清爽不泛白，PA++++高效防护，戴口罩不闷，敏感肌也适用",
+      "image_url": "https://picsum.photos/seed/anessa/400/400",
+      "price": "¥239",
+      "buy_url": "https://s.taobao.com/search?q=安热沙小金瓶防晒SPF50",
+      "category": "skincare",
+      "keywords": ["防晒", "护肤", "安热沙", "SPF50", "日本", "清爽", "防晒霜"],
+      "match": {
+        "skin_types": ["油性", "混合性", "正常", "干性", "敏感肌"],
+        "skin_issues": ["防晒", "控油"],
+        "budget_min": 100
+      },
+      "weight": 88
+    },
+    {
+      "id": "skincare_009",
+      "name": "The Ordinary视黄醇0.2%精华",
+      "description": "入门级A醇抗老，促进胶原蛋白生成，淡化细纹，改善暗沉，平价高效抗老首选",
+      "image_url": "https://picsum.photos/seed/ordinary_retinol/400/400",
+      "price": "¥75",
+      "buy_url": "https://s.taobao.com/search?q=TheOrdinary视黄醇A醇精华",
+      "category": "skincare",
+      "keywords": ["护肤", "精华", "A醇", "视黄醇", "抗老", "细纹", "平价", "The Ordinary"],
+      "match": {
+        "skin_types": ["正常", "干性", "混合性"],
+        "skin_issues": ["细纹", "抗老", "暗沉"],
+        "age_ranges": ["25+", "30+"],
+        "budget_min": 50
+      },
+      "weight": 80
+    },
+    {
+      "id": "beauty_001",
+      "name": "珂润润浸保湿卸妆油",
+      "description": "亲肤配方，温和清洁不残留，敏感肌敏感眼也适用，乳化快不搓泥，卸妆+第一步护肤二合一",
+      "image_url": "https://picsum.photos/seed/curel_cleanse/400/400",
+      "price": "¥129",
+      "buy_url": "https://s.taobao.com/search?q=珂润润浸卸妆油敏感肌",
+      "category": "beauty",
+      "keywords": ["卸妆", "卸妆油", "珂润", "敏感肌", "温和", "保湿", "清洁"],
+      "match": {
+        "skin_types": ["敏感肌", "干性", "混合性"],
+        "skin_issues": ["敏感", "干燥"],
+        "budget_min": 50
+      },
+      "weight": 82
+    },
+    {
+      "id": "beauty_002",
+      "name": "NARS裸光蜜粉饼",
+      "description": "哑光控油持妆，细腻粉体摄影级磨皮效果，不卡粉不假白，暗沉肌提亮神器",
+      "image_url": "https://picsum.photos/seed/nars_powder/400/400",
+      "price": "¥360",
+      "buy_url": "https://s.taobao.com/search?q=NARS裸光蜜粉饼控油持妆",
+      "category": "beauty",
+      "keywords": ["蜜粉", "定妆", "控油", "NARS", "持妆", "妆容", "底妆"],
+      "match": {
+        "skin_types": ["油性", "混合性"],
+        "skin_issues": ["控油", "毛孔粗大"],
+        "budget_min": 200
+      },
+      "weight": 83
+    },
+    {
+      "id": "beauty_003",
+      "name": "植村秀砍刀眉笔 灰棕色",
+      "description": "超细笔芯画出自然眉形，灰棕色适合自然暗黑发色，防水防汗全天不脱色，初学者友好",
+      "image_url": "https://picsum.photos/seed/shu_brow/400/400",
+      "price": "¥210",
+      "buy_url": "https://s.taobao.com/search?q=植村秀砍刀眉笔灰棕色",
+      "category": "beauty",
+      "keywords": ["眉笔", "眉毛", "植村秀", "灰棕", "自然", "妆容", "眉"],
+      "match": {
+        "styles": ["简约", "日系", "自然"],
+        "skin_tones": ["自然", "冷白", "暖黄"],
+        "occasions": ["日常", "通勤", "约会"],
+        "budget_min": 100
+      },
+      "weight": 80
+    },
+    {
+      "id": "beauty_004",
+      "name": "Charlotte Tilbury神奇奶油粉底",
+      "description": "媒体级别遮瑕，持妆18小时，轻薄贴肤第二层肌肤感，欧阳娜娜同款，显肤白神器",
+      "image_url": "https://picsum.photos/seed/ct_foundation/400/400",
+      "price": "¥450",
+      "buy_url": "https://s.taobao.com/search?q=CT粉底液神奇奶油粉底",
+      "category": "beauty",
+      "keywords": ["粉底液", "底妆", "CT", "遮瑕", "持妆", "显白", "妆容"],
+      "match": {
+        "skin_types": ["干性", "混合性", "正常"],
+        "occasions": ["重要场合", "约会", "通勤"],
+        "budget_min": 300
+      },
+      "weight": 85
+    },
+    {
+      "id": "beauty_005",
+      "name": "珀莱雅彩妆烟熏眼影盘",
+      "description": "8色棕调烟熏盘，哑光+闪粉双质地，日常通勤到约会夜妆都能搞定，国货性价比之王",
+      "image_url": "https://picsum.photos/seed/proya_eye/400/400",
+      "price": "¥89",
+      "buy_url": "https://s.taobao.com/search?q=珀莱雅眼影盘烟熏棕色",
+      "category": "beauty",
+      "keywords": ["眼影", "眼妆", "烟熏", "棕色", "珀莱雅", "国货", "平价"],
+      "match": {
+        "styles": ["简约", "优雅", "复古", "职场"],
+        "skin_tones": ["自然", "暖黄", "小麦", "冷白"],
+        "occasions": ["通勤", "约会", "日常"],
+        "budget_min": 50,
+        "budget_max": 300
+      },
+      "weight": 79
+    },
+    {
+      "id": "outfit_011",
+      "name": "浅粉色薄款防晒衬衫",
+      "description": "春夏两用防晒神器，雪纺面料轻薄透气，浅粉色温柔减龄，宽松版型遮臂显瘦，通勤出游都百搭",
+      "image_url": "https://picsum.photos/seed/pinkshirt/400/400",
+      "price": "¥139",
+      "buy_url": "https://s.taobao.com/search?q=浅粉色防晒衬衫女春夏宽松",
+      "category": "outfit",
+      "keywords": ["防晒衬衫", "衬衫", "粉色", "薄款", "春天", "上衣", "春", "外搭", "防晒"],
+      "match": {
+        "styles": ["简约", "甜美", "日系", "ins风"],
+        "body_shapes": ["梨形", "均匀", "苹果型"],
+        "occasions": ["通勤", "日常", "旅行", "约会"],
+        "colors": ["粉色", "浅色", "暖色"],
+        "seasons": ["春", "夏"],
+        "budget_min": 50
+      },
+      "weight": 88
+    },
+    {
+      "id": "outfit_012",
+      "name": "碎花雪纺连衣裙",
+      "description": "小碎花浪漫设计，V领收腰版型显身材，雪纺面料飘逸有型，春日出游约会神裙，显瘦又显白",
+      "image_url": "https://picsum.photos/seed/floralchiffon/400/400",
+      "price": "¥199",
+      "buy_url": "https://s.taobao.com/search?q=碎花雪纺连衣裙女春季显瘦",
+      "category": "outfit",
+      "keywords": ["碎花", "连衣裙", "裙子", "雪纺", "浪漫", "约会", "春天", "裙", "V领"],
+      "match": {
+        "styles": ["甜美", "文艺", "浪漫", "日系", "复古"],
+        "body_shapes": ["均匀", "沙漏型", "纤细", "梨形"],
+        "occasions": ["约会", "旅行", "日常", "节日"],
+        "colors": ["碎花", "多色", "浅色"],
+        "seasons": ["春", "夏"],
+        "budget_min": 100
+      },
+      "weight": 90
+    },
+    {
+      "id": "outfit_013",
+      "name": "米色针织开衫外套",
+      "description": "春秋必备针织开衫，米色百搭百种搭法，宽松慵懒风，温柔罩衫感超强，早晚防凉神器",
+      "image_url": "https://picsum.photos/seed/knitcardigan/400/400",
+      "price": "¥179",
+      "buy_url": "https://s.taobao.com/search?q=米色针织开衫女春秋宽松慵懒",
+      "category": "outfit",
+      "keywords": ["针织", "开衫", "外套", "米色", "上衣", "叠穿", "外搭", "春天", "针织衫"],
+      "match": {
+        "styles": ["简约", "文艺", "慵懒", "日系", "ins风"],
+        "body_shapes": ["梨形", "均匀", "纤细"],
+        "occasions": ["日常", "逛街", "约会", "旅行"],
+        "colors": ["米色", "浅色", "大地色"],
+        "seasons": ["春", "秋"],
+        "budget_min": 50
+      },
+      "weight": 87
+    },
+    {
+      "id": "outfit_014",
+      "name": "高腰牛仔短裙",
+      "description": "高腰设计拉腿比例，A字版型遮胯遮肉，牛仔面料耐穿百搭，裙长刚好显腿，春夏必备短裙",
+      "image_url": "https://picsum.photos/seed/jeansskirt/400/400",
+      "price": "¥159",
+      "buy_url": "https://s.taobao.com/search?q=高腰牛仔短裙女显腿长显瘦",
+      "category": "outfit",
+      "keywords": ["短裙", "裙子", "牛仔", "高腰", "裙", "显腿", "A字裙", "半裙"],
+      "match": {
+        "styles": ["简约", "休闲", "街头", "ins风", "日系"],
+        "body_shapes": ["梨形", "均匀", "纤细"],
+        "occasions": ["日常", "逛街", "约会"],
+        "colors": ["蓝色", "深色"],
+        "seasons": ["春", "夏"],
+        "budget_min": 50
+      },
+      "weight": 82
+    },
+    {
+      "id": "outfit_015",
+      "name": "拼色运动套装",
+      "description": "时髦运动风，速干透气面料，宽松版型不勒身，高腰裤型显腿长，瑜伽健身跑步都适合，减龄显活力",
+      "image_url": "https://picsum.photos/seed/sportswear/400/400",
+      "price": "¥189",
+      "buy_url": "https://s.taobao.com/search?q=女运动套装宽松显瘦跑步健身",
+      "category": "outfit",
+      "keywords": ["运动", "套装", "健身", "瑜伽", "跑步", "速干", "运动服", "上衣", "裤子"],
+      "match": {
+        "styles": ["运动", "休闲", "街头"],
+        "body_shapes": ["均匀", "梨形", "纤细", "苹果型"],
+        "occasions": ["运动健身", "日常", "逛街"],
+        "colors": ["多色", "浅色"],
+        "seasons": ["春", "夏"],
+        "budget_min": 50
+      },
+      "weight": 80
+    },
+    {
+      "id": "outfit_016",
+      "name": "白色polo领短袖T恤",
+      "description": "polo领经典款，棉质面料透气舒适，白色百搭，简约高级感，搭配裙子裤子都好看，减龄显嫩",
+      "image_url": "https://picsum.photos/seed/polotshirt/400/400",
+      "price": "¥99",
+      "buy_url": "https://s.taobao.com/search?q=女白色polo短袖T恤春夏",
+      "category": "outfit",
+      "keywords": ["T恤", "白色", "polo", "短袖", "上衣", "棉", "基础款", "打底"],
+      "match": {
+        "styles": ["简约", "休闲", "ins风", "preppy", "学院风"],
+        "body_shapes": ["均匀", "纤细", "梨形"],
+        "occasions": ["日常", "逛街", "通勤", "运动"],
+        "colors": ["白色", "浅色"],
+        "seasons": ["春", "夏"],
+        "budget_min": 50
+      },
+      "weight": 78
+    },
+    {
+      "id": "outfit_017",
+      "name": "桃粉色半身长裙",
+      "description": "温柔桃粉色，飘逸半身长裙，高腰设计拉腿比例，薄纱面料轻盈飘逸，约会踏青超级上镜",
+      "image_url": "https://picsum.photos/seed/pinkskirt/400/400",
+      "price": "¥219",
+      "buy_url": "https://s.taobao.com/search?q=桃粉色半身长裙女春季飘逸",
+      "category": "outfit",
+      "keywords": ["裙子", "长裙", "粉色", "半裙", "约会", "飘逸", "裙", "浪漫"],
+      "match": {
+        "styles": ["甜美", "浪漫", "优雅", "仙女"],
+        "body_shapes": ["均匀", "纤细", "梨形", "沙漏型"],
+        "occasions": ["约会", "旅行", "节日", "日常"],
+        "colors": ["粉色", "浅色", "暖色"],
+        "seasons": ["春", "夏"],
+        "budget_min": 100
+      },
+      "weight": 85
+    },
+    {
+      "id": "skincare_006",
+      "name": "理肤泉特安舒缓防晒乳 SPF50+",
+      "description": "敏感肌专研配方，轻薄不闷痘，SPF50+UVA/UVB双重防护，适合日常通勤和户外防晒",
+      "image_url": "https://picsum.photos/seed/laroche/400/400",
+      "price": "¥199",
+      "buy_url": "https://s.taobao.com/search?q=理肤泉特安防晒乳SPF50敏感肌",
+      "category": "skincare",
+      "keywords": ["防晒", "防晒霜", "防晒乳", "SPF50", "敏感肌", "轻薄", "护肤", "理肤泉"],
+      "match": {
+        "skin_types": ["敏感肌", "干性", "混合性", "油性"],
+        "skin_issues": ["防晒", "泛红", "敏感"],
+        "seasons": ["春", "夏"],
+        "budget_min": 100
+      },
+      "weight": 86
+    },
+    {
+      "id": "skincare_007",
+      "name": "珀莱雅早C晚A精华套装",
+      "description": "VC早晨抗氧化+视黄醇晚间修护，科学护肤组合，提亮暗沉改善粗糙，30天明显改善肤质",
+      "image_url": "https://picsum.photos/seed/proya_ca/400/400",
+      "price": "¥278",
+      "buy_url": "https://s.taobao.com/search?q=珀莱雅早C晚A精华液套装",
+      "category": "skincare",
+      "keywords": ["精华", "早C晚A", "VC", "抗氧化", "暗沉", "提亮", "护肤", "珀莱雅"],
+      "match": {
+        "skin_types": ["正常", "干性", "混合性", "油性"],
+        "skin_issues": ["暗沉", "毛孔粗大", "抗老", "提亮"],
+        "budget_min": 100
+      },
+      "weight": 88
+    }
+  ]
+}

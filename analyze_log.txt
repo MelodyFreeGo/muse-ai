@@ -1,0 +1,106 @@
+﻿Analyzing ai_service.dart...
+
+  error - ai_service.dart:71:10 - The name 'AiResponse' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'AiResponse'. - non_type_as_type_argument
+  error - ai_service.dart:121:23 - The method '_callLLM' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named '_callLLM'. - undefined_method
+  error - ai_service.dart:123:14 - Undefined name 'AiResponse'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - ai_service.dart:128:28 - The method '_extractProfileHints' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named '_extractProfileHints'. - undefined_method
+  error - ai_service.dart:142:14 - The method 'AiResponse' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named 'AiResponse'. - undefined_method
+  error - ai_service.dart:151:28 - The method '_extractProfileHints' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named '_extractProfileHints'. - undefined_method
+  error - ai_service.dart:164:14 - The method 'AiResponse' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named 'AiResponse'. - undefined_method
+  error - ai_service.dart:171:22 - The method '_parseResponse' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named '_parseResponse'. - undefined_method
+  error - ai_service.dart:174:26 - The method '_extractProfileHints' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named '_extractProfileHints'. - undefined_method
+  error - ai_service.dart:182:23 - The method '_extractJson' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named '_extractJson'. - undefined_method
+  error - ai_service.dart:368:27 - The method '_extractProfileHints' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named '_extractProfileHints'. - undefined_method
+  error - ai_service.dart:501:11 - The method '_describeProfile' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named '_describeProfile'. - undefined_method
+  error - ai_service.dart:505:25 - The method '_buildMissingHint' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named '_buildMissingHint'. - undefined_method
+  error - ai_service.dart:1538:14 - Local variable '_mockResponse' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_mockResponse' is here at ai_service.dart:2230:19.
+  error - ai_service.dart:1597:3 - Undefined class 'AiResponse'. Try changing the name to the name of an existing class, or creating a class with the name 'AiResponse'. - undefined_class
+  error - ai_service.dart:1600:25 - Local variable '_extractJson' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_extractJson' is here at ai_service.dart:1693:11.
+  error - ai_service.dart:1610:18 - The method 'AiResponse' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named 'AiResponse'. - undefined_method
+  error - ai_service.dart:1617:14 - Undefined name 'AiResponse'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - ai_service.dart:1620:23 - Local variable '_extractJson' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_extractJson' is here at ai_service.dart:1693:11.
+  error - ai_service.dart:1636:30 - Local variable '_cleanProductTitle' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_cleanProductTitle' is here at ai_service.dart:1686:10.
+  error - ai_service.dart:1639:19 - Local variable '_cardTypeFromIntent' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_cardTypeFromIntent' is here at ai_service.dart:1778:12.
+  error - ai_service.dart:1650:18 - The method 'AiResponse' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named 'AiResponse'. - undefined_method
+  error - ai_service.dart:1659:18 - The method 'AiResponse' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named 'AiResponse'. - undefined_method
+  error - ai_service.dart:1670:29 - Local variable '_buildFallbackCards' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_buildFallbackCards' is here at ai_service.dart:1705:20.
+  error - ai_service.dart:1675:16 - The method 'AiResponse' isn't defined for the type 'AiService'. Try correcting the name to the name of an existing method, or defining a method named 'AiResponse'. - undefined_method
+  error - ai_service.dart:1682:12 - Undefined name 'AiResponse'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - ai_service.dart:1706:22 - Local variable '_cardTypeFromIntent' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_cardTypeFromIntent' is here at ai_service.dart:1778:12.
+  error - ai_service.dart:1752:19 - Local variable '_guessSubtitle' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_guessSubtitle' is here at ai_service.dart:1760:10.
+  error - ai_service.dart:1753:15 - Local variable '_guessTags' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_guessTags' is here at ai_service.dart:1769:16.
+  error - ai_service.dart:2017:14 - Local variable '_mockLipColorResult' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_mockLipColorResult' is here at ai_service.dart:2103:24.
+  error - ai_service.dart:2028:16 - Local variable '_mockLipColorResult' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_mockLipColorResult' is here at ai_service.dart:2103:24.
+  error - ai_service.dart:2031:14 - Local variable '_mockLipColorResult' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_mockLipColorResult' is here at ai_service.dart:2103:24.
+  error - ai_service.dart:2100:12 - Local variable '_mockLipColorResult' can't be referenced before it is declared. Try moving the declaration to before the first use, or renaming the local variable so that it doesn't hide a name from an enclosing scope. - referenced_before_declaration
+           - The declaration of '_mockLipColorResult' is here at ai_service.dart:2103:24.
+  error - ai_service.dart:2128:3 - Can't have modifier 'static' here. Try removing 'static'. - extraneous_modifier
+  error - ai_service.dart:2356:1 - Classes can't be declared inside other classes. Try moving the class to the top-level. - class_in_class
+  error - ai_service.dart:2389:1 - Expected to find '}'. - expected_token
+warning - ai_service.dart:1268:3 - Dead code. Try removing the code, or fixing the code before it so that it can be reached. - dead_code
+warning - ai_service.dart:1268:10 - The declaration '_buildMissingHint' isn't referenced. Try removing the declaration of '_buildMissingHint'. - unused_element
+warning - ai_service.dart:1341:23 - The declaration '_extractProfileHints' isn't referenced. Try removing the declaration of '_extractProfileHints'. - unused_element
+warning - ai_service.dart:1535:19 - The declaration '_callLLM' isn't referenced. Try removing the declaration of '_callLLM'. - unused_element
+warning - ai_service.dart:1597:14 - The declaration '_parseResponse' isn't referenced. Try removing the declaration of '_parseResponse'. - unused_element
+warning - ai_service.dart:1799:26 - The declaration 'analyzePhoto' isn't referenced. Try removing the declaration of 'analyzePhoto'. - unused_element
+warning - ai_service.dart:1907:28 - The declaration 'analyzeIngredients' isn't referenced. Try removing the declaration of 'analyzeIngredients'. - unused_element
+warning - ai_service.dart:2009:32 - The declaration 'analyzeLipColor' isn't referenced. Try removing the declaration of 'analyzeLipColor'. - unused_element
+   info - ai_service.dart:682:8 - Unnecessary braces in a string interpolation. Try removing the braces. - unnecessary_brace_in_string_interps
+   info - ai_service.dart:756:16 - Use interpolation to compose strings and values. Try using string interpolation to build the composite string. - prefer_interpolation_to_compose_strings
+   info - ai_service.dart:954:34 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:956:59 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:958:35 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:959:64 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:961:34 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:964:35 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:966:59 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:968:59 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:969:39 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:970:65 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:972:34 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:974:59 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:975:38 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:976:64 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:978:33 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:1268:10 - The local variable '_buildMissingHint' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:1341:23 - The local variable '_extractProfileHints' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:1458:23 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:1459:28 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:1460:28 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:1461:28 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:1462:28 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:1463:14 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:1466:29 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:1467:34 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:1468:34 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:1469:34 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:1470:34 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ai_service.dart:1492:10 - The local variable '_describeProfile' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:1535:19 - The local variable '_callLLM' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:1536:5 - Use 'const' for final variables initialized to a constant value. Try replacing 'final' with 'const'. - prefer_const_declarations
+   info - ai_service.dart:1573:10 - The local variable '_sanitizeReply' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:1597:14 - The local variable '_parseResponse' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:1686:10 - The local variable '_cleanProductTitle' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:1693:11 - The local variable '_extractJson' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:1705:20 - The local variable '_buildFallbackCards' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:1760:10 - The local variable '_guessSubtitle' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:1769:16 - The local variable '_guessTags' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:1778:12 - The local variable '_cardTypeFromIntent' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:2103:24 - The local variable '_mockLipColorResult' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:2128:37 - The local variable '_getMockOutfits' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:2230:19 - The local variable '_mockResponse' starts with an underscore. Try renaming the variable to not start with an underscore. - no_leading_underscores_for_local_identifiers
+   info - ai_service.dart:2285:22 - Unnecessary use of string interpolation. Try replacing the string literal with the variable name. - unnecessary_string_interpolations
+
+89 issues found.
