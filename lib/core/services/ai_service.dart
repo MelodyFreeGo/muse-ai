@@ -814,8 +814,22 @@ $missingHint
     final seasonChar = _getRealSeasonChar();
     final timeOfDay = _getTimeOfDay();
 
+    // ── 风格容错：纠正用户的打字错误或近似表述 ────────────────────
+    String correctedMsg = userMsg.toLowerCase();
+    
+    // 运动服 → 运动风 / 甜美服 → 甜美风 / 极简服 → 极简风
+    correctedMsg = correctedMsg
+        .replaceAll(RegExp(r'运动\s*服'), '运动风')
+        .replaceAll(RegExp(r'甜美\s*服'), '甜美风')
+        .replaceAll(RegExp(r'极简\s*服'), '极简风')
+        .replaceAll(RegExp(r'性感\s*服'), '性感风')
+        .replaceAll(RegExp(r'优雅\s*服'), '优雅风')
+        .replaceAll(RegExp(r'文艺\s*服'), '文艺风')
+        .replaceAll(RegExp(r'街头\s*服'), '街头风')
+        .replaceAll(RegExp(r'通勤\s*服'), '通勤风');
+
     // ── 用户诉求细分（显瘦/显高/颜色/版型/材质） ───────────────
-    final tl = userMsg.toLowerCase();
+    final tl = correctedMsg;
     String subGoal = '';
     String subInstruction = '';
 
@@ -921,7 +935,7 @@ $season面料首选：${_getSeasonOutfitHint(season)}
 - 尺码：${p?.clothingSize?.label ?? '未填'}
 - 年龄段：${p?.ageGroup?.label ?? '未填'}
 - 肤色：${p?.skinTone?.label ?? '未填'}（影响穿搭配色，冷白皮推冷调色；暖黄皮推暖调/大地色；小麦色推对比饱和色）
-- 风格：${p?.styleType?.label ?? '未填，可以问她'}
+- 风格：${p?.styleType?.label ?? '未填，可以问她'}（⚠️ 智能推断：用户说"运动服/甜美服/极简服/性感服/优雅服/文艺服/街头服/通勤服"等带"服"字的表述，应理解为"XX风"而非单品类型！例："运动服"→理解为运动风格穿搭，而非直接推荐运动服单品）
 - 喜欢颜色：${p?.favoriteColors.isNotEmpty == true ? p!.favoriteColors.join('、') : '未填，推适合她肤色的色系'}
 - 不要颜色：${p?.avoidColors.isNotEmpty == true ? p!.avoidColors.join('、') : '无限制'}
 - 场景：${p?.occasions.isNotEmpty == true ? p!.occasions.map((e) => e.label).join('、') : '日常'}
@@ -1281,14 +1295,14 @@ $season可选单品：${_getSeasonOutfitHint(season)}
   /// 档案摘要 Prompt（用户主动查询自己的档案信息）
   String _profileSummaryPrompt(UserProfile? p, [bool isEditRequest = false]) {
     if (isEditRequest) {
-      // 编辑档案请求，引导去 Profile 页面
+      // 编辑档案请求，主动问"你想改哪个"
       return '''
-【任务：引导编辑档案】用户想继续补充/编辑档案信息。
+【任务：引导编辑档案】用户想修改/补充档案信息。
 
-直接用 JSON 输出，引导她去档案页：
+不要直接让她去页面，先用 JSON 询问"你想改哪个？"
 {
-  "reply": "好的，去档案页可以编辑你所有信息！点击底部菜单「我的」→ 右上角编辑图标就能看到完整档案，缺什么补什么，填完我就能更懂你了 💎",
-  "quick_replies": ["我要编辑档案", "查看我的完整度", "补充肌肤信息"]
+  "reply": "好的，你想改哪部分？告诉我你想修改的内容，我帮你看看怎么调整 💎",
+  "quick_replies": ["风格不对，想改风格", "身材信息变了", "肤质有变化", "年龄/城市", "预算范围"]
 }
 ''';
     }
