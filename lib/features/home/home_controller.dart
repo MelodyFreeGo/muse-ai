@@ -900,7 +900,9 @@ class HomeController extends GetxController with GetTickerProviderStateMixin {
     final t = text.trim();
 
     // ── 档案相关 ──────────────────────────────────────────────
-    if (RegExp(r'(我的档案|查看档案|个人信息|我的信息|档案|个人资料)').hasMatch(t)) {
+    // 排除"修改/编辑档案"的情况（由 AI 处理）
+    if (RegExp(r'(我的档案|查看档案|个人信息|我的信息|档案|个人资料)').hasMatch(t) &&
+        !RegExp(r'(修改|编辑|更新|改)').hasMatch(t)) {
       _showProfileSummary();
       return true;
     }
