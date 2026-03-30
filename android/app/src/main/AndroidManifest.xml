@@ -1,5 +1,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 网络权限（AI API / 天气） -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- 录音权限（语音输入 STT） -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <!-- 图片/媒体读取（Android 13+ 分权限） -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <!-- Android 12 及以下兼容 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28"/>
+
     <application
+        android:usesCleartextTraffic="false"
         android:label="aisrzl"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
