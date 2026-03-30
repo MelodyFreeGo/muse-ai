@@ -80,6 +80,12 @@ class AiService {
   }) async {
     final intent = _detectIntent(userMessage);
 
+    // 检测是否是"编辑/补充档案"类请求（而非查询）
+    final isProfileEditRequest = _match(
+      userMessage.toLowerCase(),
+      ['继续补充', '编辑档案', '修改档案', '更新档案', '修改信息', '完善档案']
+    );
+
     // ── 实时天气（先拉后注入 Prompt，让 AI 能真正说出今天天气）──
     WeatherData? weather;
     final cityName = profile?.city?.isNotEmpty == true ? profile!.city : null;
@@ -324,7 +330,9 @@ class AiService {
     // ⑨ 档案查询/更新（优先于chat，避免被闲聊吞掉）
     if (_match(t, ['我的档案', '查看档案', '档案信息', '我的信息', '个人信息',
                    '档案完整', '档案填', '帮我查档案', '档案里', '我有哪些信息',
-                   '你知道我哪些', '你了解我多少', '我的资料'])) {
+                   '你知道我哪些', '你了解我多少', '我的资料',
+                   '继续补充档案', '我要继续补充档案', '怎么补充档案', '补充档案',
+                   '编辑档案', '修改档案', '更新档案', '修改信息', '完善档案'])) {
       return _intentProfile;
     }
 
@@ -696,6 +704,16 @@ $productBlock
   - "根据你的情况/个人档案/皮肤特点来看"
   - "我建议你考虑..."
   - "这是一个很好的选择"
+
+⚠️ 禁止幻觉记忆：严禁编造用户说过的话！
+  - 不可以说"你上次说想买xxx"、"你之前提到过xxx"（除非对话历史里真的有）
+  - 不可以说"我记得你说过xxx"（除非真的说过）
+  - 记忆缺失时直接说"我忘了，你重新说一遍"，不要编造
+  - 被用户质疑"我没说过"时，立即承认错误，不要狡辩
+
+✅ 闲聊处理原则：
+  - 唱歌/讲故事等非核心请求：拒绝后立即引导回主业，例"我不会唱歌，但我可以帮你挑一款约会用的香水"
+  - 幽默点可以，但不要离题太远
   - "希望对你有帮助"
   - 任何套话开头
 
@@ -740,7 +758,7 @@ $missingHint
         return base + _ingredientPrompt(profile);
 
       case _intentProfile:
-        return base + _profileSummaryPrompt(profile);
+        return base + _profileSummaryPrompt(profile, isProfileEditRequest);
 
       default: {
         // ── 动态闲聊：根据时段/节日生成不同的「话题钩子」────
@@ -1257,7 +1275,20 @@ $season可选单品：${_getSeasonOutfitHint(season)}
   }
 
   /// 档案摘要 Prompt（用户主动查询自己的档案信息）
-  String _profileSummaryPrompt(UserProfile? p) {
+  String _profileSummaryPrompt(UserProfile? p, [bool isEditRequest = false]) {
+    if (isEditRequest) {
+      // 编辑档案请求，引导去 Profile 页面
+      return '''
+【任务：引导编辑档案】用户想继续补充/编辑档案信息。
+
+直接用 JSON 输出，引导她去档案页：
+{
+  "reply": "好的，去档案页可以编辑你所有信息！点击底部菜单「我的」→ 右上角编辑图标就能看到完整档案，缺什么补什么，填完我就能更懂你了 💎",
+  "quick_replies": ["我要编辑档案", "查看我的完整度", "补充肌肤信息"]
+}
+''';
+    }
+
     if (p == null) {
       return '''
 【任务：档案查询】用户还没有建立档案。
@@ -1277,6 +1308,8 @@ $season可选单品：${_getSeasonOutfitHint(season)}
 3. 缺失的字段别明说"未填写"，改成"你还没告诉我XXX，下次记得说！"
 4. 档案完整度：$rate%，结尾说一句完整度评价（高于80%夸她，低于60%鼓励她补充）
 5. 结尾给2-3个基于档案的快速行动建议（如"你的肤色推荐你去看看秋日口红色号"）
+
+
 
 直接输出文字，不要 JSON。
 ''';
