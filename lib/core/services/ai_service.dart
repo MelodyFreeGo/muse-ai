@@ -124,6 +124,7 @@ class AiService {
       profile: profile,
       history: history,
       weather: weather,
+      isProfileEditRequest: isProfileEditRequest,
       matchedProducts: matchedProducts,
       fallbackProducts: fallbackProducts,
     );
@@ -352,6 +353,7 @@ class AiService {
     WeatherData? weather,
     List<Product> matchedProducts = const [],
     List<Product> fallbackProducts = const [],
+    bool isProfileEditRequest = false,
   }) {
     // ── 从 history 中提取对话内已透露的用户信息，避免 AI 重复追问 ──
     final conversationHints = _extractHintsFromHistory(history);
@@ -363,6 +365,7 @@ class AiService {
       fallbackProducts: fallbackProducts,
       conversationHints: conversationHints,
       history: history,
+      isProfileEditRequest: isProfileEditRequest,
     );
     final msgs = <Map<String, String>>[
       {'role': 'system', 'content': systemPrompt},
@@ -512,6 +515,7 @@ class AiService {
     List<Product> fallbackProducts = const [],
     Map<String, String> conversationHints = const {},
     List<Map<String, String>> history = const [],
+    bool isProfileEditRequest = false,
   }) {
     final profileDesc = profile != null
         ? _describeProfile(profile)
