@@ -84,7 +84,10 @@ class AiService {
     // 检测是否是"编辑/补充档案"类请求（而非查询）
     final isProfileEditRequest = _match(
       userMessage.toLowerCase(),
-      ['继续补充', '编辑档案', '修改档案', '更新档案', '修改信息', '完善档案']
+      ['继续补充', '编辑档案', '修改档案', '更新档案', '修改信息', '完善档案',
+       '修改一下档案', '编辑一下档案', '更新一下档案', '改一下档案', '改档案',
+       '我要改档案', '我要编辑档案', '我要修改档案', '我要更新档案',
+       '改风格', '改身材', '改肤质', '改预算', '改年龄', '改城市']
     );
     AppLogger.d('AiService', '用户消息: "$userMessage", isProfileEditRequest: $isProfileEditRequest');
 
