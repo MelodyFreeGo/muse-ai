@@ -12,6 +12,7 @@ import '../models/ingredient_result.dart';
 import '../models/product.dart';
 import 'weather_service.dart';
 import 'product_service.dart';
+import 'storage_service.dart';
 
 extension _IntLet on int {
   T let<T>(T Function(int) f) => f(this);
@@ -1847,6 +1848,7 @@ $season可选单品：${_getSeasonOutfitHint(season)}
     final apiKey = _deepSeekKey;
     if (AppConfig.useMock) {
       AppLogger.d('AiService', 'Key 未配置，走 Mock 响应');
+      final profile = StorageService.to.loadProfile();
       return _mockResponse(messages.last['content'] ?? '', profile);
     }
 
