@@ -86,6 +86,7 @@ class AiService {
       userMessage.toLowerCase(),
       ['继续补充', '编辑档案', '修改档案', '更新档案', '修改信息', '完善档案']
     );
+    AppLogger.d('AiService', '用户消息: "$userMessage", isProfileEditRequest: $isProfileEditRequest');
 
     // ── 实时天气（先拉后注入 Prompt，让 AI 能真正说出今天天气）──
     WeatherData? weather;
